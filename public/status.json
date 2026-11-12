@@ -1,0 +1,119 @@
+{
+  "source": "sample",
+  "notice": "SAMPLE DATA — not a live feed",
+  "generated_at": "2026-11-12T00:00:00Z",
+  "bots": [
+    {
+      "id": "chief",
+      "name": "Chief · Chief of Staff",
+      "zone": "Leadership",
+      "status": "working",
+      "task": "Sample: Planning the day",
+      "last_active": "2026-11-12T00:00:00Z"
+    },
+    {
+      "id": "one-person-company",
+      "name": "One-Person Company",
+      "zone": "Leadership",
+      "status": "working",
+      "task": "Sample: In a meeting at the table",
+      "last_active": "2026-11-12T00:00:00Z"
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "zone": "Research",
+      "status": "idle",
+      "task": "Sample: In the lounge",
+      "last_active": "2026-11-11T23:40:00Z"
+    },
+    {
+      "id": "competitor-mapper",
+      "name": "Competitor Mapper",
+      "zone": "Research",
+      "status": "blocked",
+      "task": "Sample: Waiting on input",
+      "last_active": "2026-11-11T23:20:00Z"
+    },
+    {
+      "id": "behavior-reverser",
+      "name": "Behavior Reverser",
+      "zone": "Research",
+      "status": "working",
+      "task": "Sample: Reviewing notes",
+      "last_active": "2026-11-12T00:00:00Z"
+    },
+    {
+      "id": "explainer-video",
+      "name": "Explainer Video bot",
+      "zone": "Media",
+      "status": "working",
+      "task": "Sample: Working at the desk",
+      "last_active": "2026-11-12T00:00:00Z"
+    },
+    {
+      "id": "video-director",
+      "name": "Video Director",
+      "zone": "Media",
+      "status": "idle",
+      "task": "Sample: Taking a break",
+      "last_active": "2026-11-11T23:50:00Z"
+    },
+    {
+      "id": "selling",
+      "name": "Selling",
+      "zone": "Ops & Life",
+      "status": "offline",
+      "task": "Sample: Offline",
+      "last_active": "2026-11-11T18:00:00Z"
+    },
+    {
+      "id": "tax-desk",
+      "name": "Tax Desk",
+      "zone": "Ops & Life",
+      "status": "working",
+      "task": "Sample: Drafting a short note",
+      "last_active": "2026-11-12T00:00:00Z"
+    },
+    {
+      "id": "get-hired-2027",
+      "name": "Get Hired 2027",
+      "zone": "Ops & Life",
+      "status": "blocked",
+      "task": "Sample: Blocked on a decision",
+      "last_active": "2026-11-11T22:10:00Z"
+    }
+  ],
+  "activity": [
+    {
+      "ts": "2026-11-12T00:00:00Z",
+      "bot_id": "chief",
+      "text": "Sample: started the day at the desk"
+    },
+    {
+      "ts": "2026-11-11T23:50:00Z",
+      "bot_id": "video-director",
+      "text": "Sample: walked to the lounge"
+    },
+    {
+      "ts": "2026-11-11T23:40:00Z",
+      "bot_id": "scout",
+      "text": "Sample: taking a break"
+    },
+    {
+      "ts": "2026-11-11T23:20:00Z",
+      "bot_id": "competitor-mapper",
+      "text": "Sample: waiting on input"
+    },
+    {
+      "ts": "2026-11-11T22:10:00Z",
+      "bot_id": "get-hired-2027",
+      "text": "Sample: blocked on a decision"
+    },
+    {
+      "ts": "2026-11-11T18:00:00Z",
+      "bot_id": "selling",
+      "text": "Sample: went offline"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bot office</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div class="brand">
+          <h1>Bot office</h1>
+          <p>An isometric floor for the assistant roster.</p>
+        </div>
+        <div class="top-actions">
+          <div class="segment" role="group" aria-label="Time of day">
+            <button type="button" data-light="day" aria-pressed="true">Day</button>
+            <button type="button" data-light="evening" aria-pressed="false">Evening</button>
+            <button type="button" data-light="night" aria-pressed="false">Night</button>
+          </div>
+          <span id="mode-badge" class="badge" hidden>Simulation</span>
+          <time id="updated" class="updated"></time>
+        </div>
+      </header>
+
+      <main class="stage">
+        <canvas id="office" aria-label="Isometric office"></canvas>
+        <p id="banner" class="banner" hidden></p>
+      </main>
+
+      <aside class="panel" aria-label="Team">
+        <div class="panel-card">
+          <div class="panel-head">
+            <h2>Team</h2>
+            <span id="team-count" class="muted"></span>
+          </div>
+          <div id="pills" class="pills" role="group" aria-label="Filter by status"></div>
+          <article id="detail" class="detail" hidden></article>
+          <ul id="roster" class="roster"></ul>
+        </div>
+        <div class="panel-card feed-card">
+          <div class="panel-head">
+            <h2>Activity</h2>
+          </div>
+          <ol id="feed" class="feed"></ol>
+        </div>
+      </aside>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "bots": {
+    "scout": {
+      "status": "working",
+      "task": "Reading a public page"
+    }
+  }
+}

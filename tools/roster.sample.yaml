@@ -1,0 +1,57 @@
+# Local roster for tools/export_status.py.
+# Safe fields only: names, zones, coarse status, short task labels, timestamps.
+bots:
+  - id: chief
+    name: "Chief · Chief of Staff"
+    zone: Leadership
+    status: working
+    task: "Planning the day"
+  - id: one-person-company
+    name: One-Person Company
+    zone: Leadership
+    status: working
+    task: "In a meeting at the table"
+  - id: scout
+    name: Scout
+    zone: Research
+    status: idle
+    task: "In the lounge"
+  - id: competitor-mapper
+    name: Competitor Mapper
+    zone: Research
+    status: blocked
+    task: "Waiting on input"
+  - id: behavior-reverser
+    name: Behavior Reverser
+    zone: Research
+    status: working
+    task: "Reviewing notes"
+  - id: explainer-video
+    name: Explainer Video bot
+    zone: Media
+    status: working
+    task: "Working at the desk"
+  - id: video-director
+    name: Video Director
+    zone: Media
+    status: idle
+    task: "Taking a break"
+  - id: selling
+    name: Selling
+    zone: "Ops & Life"
+    status: offline
+    task: Offline
+  - id: tax-desk
+    name: Tax Desk
+    zone: "Ops & Life"
+    status: working
+    task: "Drafting a short note"
+  - id: get-hired-2027
+    name: Get Hired 2027
+    zone: "Ops & Life"
+    status: blocked
+    task: "Blocked on a decision"
+activity:
+  - ts: "2026-11-12T00:00:00Z"
+    bot_id: chief
+    text: "Started the day at the desk"
